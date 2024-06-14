@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdfdfd;
+    color: #333; 
+ }
+ header {
+    background-color: #005f73;
+    color: rgb(219, 255, 255);
+    padding: 20px 0;
+ }
+ header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+ }
+ header .logo {
+    max-height: 50px;
+ }
+ header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+ }
+ header nav ul li {
+    display: inline;
+ }
+ header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+ }
+ header nav ul li a:hover {
+    text-decoration: underline;
+ }
+ .section {
+    padding: 40px 0;
+    background-color: white;
+    margin-bottom: 20px;
+ }
+ .section .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+ }
+ h1, h2 {
+    color: #005f73;
+ }
+ ul {
+    list-style: none;
+    padding: 0;
+ }
+ ul li {
+    background-color: #e0f7fa;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+ }
+ form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+ }
+ form label {
+    font-weight: bold;
+ }
+ form input, form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+ }
+ form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #005f73;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+ }
+ form button:hover {
+    background-color: #003f5c;
+ }
+ footer {
+    background-color: #003f5c;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+ }
+ footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+ }
