@@ -1,18 +1,18 @@
-/* Estilos Globais */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #ffffff; /* branco */
-    color: #1f1f1f; /* cinza escuro */
-}
+    background-color: #ffffff; 
+    color: #1f1f1f; 
+
 
 .container {
     width: 80%;
     margin: 0 auto;
 }
 
-/* Estilos do Header */
+
 header {
     background-color: #79bcb7; /* azul */
     padding: 20px 0;
@@ -40,7 +40,7 @@ header nav ul li a {
     color: #fff;
 }
 
-/* Estilos das Seções */
+
 .section {
     padding: 50px 0;
 }
@@ -53,7 +53,7 @@ header nav ul li a {
     margin-bottom: 20px;
 }
 
-/* Estilos do Rodapé */
+
 footer {
     background-color: #3a7a7d;
     color: #fff;
@@ -65,11 +65,11 @@ footer p {
     margin: 5px 0;
 }
 
-/* Estilos da Sidebar */
+
 .sidebar {
     width: 20%;
-    background-color: #ceefe0; /* verde */
-    color: #fff; /* branco */
+    background-color: #ceefe0; 
+    color: #fff; 
     position: fixed;
     top: 0;
     right: 0;
