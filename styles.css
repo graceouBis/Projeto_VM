@@ -88,3 +88,18 @@ footer p {
 .sidebar ul li {
     margin-bottom: 10px;
 }
+
+@media (max-width: 768px) {
+   nav ul {
+       flex-direction: column;
+   }
+   nav ul li {
+       margin: 10px 0;
+   }
+   section {
+       padding: 1em;
+   }
+   form input, form textarea {
+       width: 100%;
+   }
+}
